@@ -7,7 +7,7 @@ import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  SERVER_URI = 'https://task-server-n6aw.onrender.com/api/tasks';
+  SERVER_URI = 'https://task-management-2g3e.onrender.com';
   title = 'homes';
   tasks: {
     title: string;
