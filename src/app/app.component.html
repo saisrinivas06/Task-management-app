@@ -1,0 +1,9 @@
+<div class="w-full bg-gray-800 min-h-screen">
+
+    <div class="max-w-full mx-auto bg-gray-900">
+        <app-navbar></app-navbar>
+    </div>
+
+    <app-new-task (addTaskEvent)="addTask($event)" (sortTasksEvent)="sortTasks($event)"></app-new-task>
+    <app-tasks [tasks]="tasks" (deleteEvent)="deleteTask($event)" (updateTaskEvent)="updateTask($event)"></app-tasks>
+</div>
