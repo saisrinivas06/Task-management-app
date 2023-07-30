@@ -13,8 +13,8 @@
         </a>
         <div class="flex items-center justify-start gap-2 mt-2">
             <input [checked]="task.completed" type="checkbox" (change)="updateTask(task._id)" class="w-4 h-4 text-blue-600 bg-gray-100 hover:cursor-pointer border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-            <p class="dark:text-white font-bold ml-1 bg-gray-800">Completed?</p>
-            <p class="dark:text-white font-bold bg-gray-800">Due: {{ task.dueDate.slice(0, 10) }} </p>
+            <p class="dark:text-white text-dark-700 font-bold ml-1">Completed?</p>
+            <p class="text-dark-700 dark:text-white font-bold">Due: {{ task.dueDate.slice(0, 10) }} </p>
         </div>
     </div>
 </div>
