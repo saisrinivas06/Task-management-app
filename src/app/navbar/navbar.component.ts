@@ -6,12 +6,7 @@ import { HistoryComponent } from '../history/history.component';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent {
-  username: string
-  
-  constructor(private dialogRef: MatDialog) {
-    this.username = 'Harish'
-  }
+
 
   openDialog() {
     console.log('here')
